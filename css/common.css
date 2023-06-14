@@ -154,3 +154,78 @@
     color: #fff;
     border-radius: 7px 7px 7px 0;
 }
+/* 导航栏 nav */
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+    color: #fff;
+}
+
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.dropdown .dd {
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+}
+
+.dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    padding: 0 10px;
+    margin-left: 2px;
+}
+
+.dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    content: '\e920';
+    font-family:'icomoon';
+    color: #fff;
+    font-size: 14px;
+}
+/* 鼠标悬浮li 时，a 变颜色 */
+.dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+
+.navitems {
+    float: left;
+}
+
+.navitems ul li {
+    float: left;
+}
+
+.navitems ul li a {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
