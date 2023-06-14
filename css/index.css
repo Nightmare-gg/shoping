@@ -88,3 +88,42 @@
 .bargin {
     margin-top: 5px;
 }
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom_hd {
+    float: left;
+    width: 206px;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #5c5251;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
