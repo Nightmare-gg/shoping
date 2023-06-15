@@ -1,0 +1,146 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 82px;
+    border-bottom: 2px solid #af191b;
+}
+
+.logo {
+    padding-top: 17px;
+}
+
+.registerarea {
+    height: 523px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #af191b;
+}
+
+.reg-form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg-form ul li {
+    margin-bottom: 20px;
+}
+
+/* label需要右对齐，设置为行内块元素，给他一个宽度，再居右 */
+.reg-form label {
+    display: inline-block;
+    width: 86px;
+    text-align: right;
+}
+
+.reg-form .inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: #e3313d;
+}
+
+/* i为行内元素，要设置宽高需要转为行内块 */
+.error_icon,
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.success{
+    color: #4ab736;
+}
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.safe {
+    color: #d5d5d5;
+    padding-left: 164px;
+}
+
+.safe em {
+    padding:0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #dd1112;
+}
+
+.zhong{
+    background-color: #43b641;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.argee {
+    padding-left: 88px;
+}
+
+.argee input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.argee a {
+    color: #acddfd;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81622;
+    color: #fff;
+    margin: 50px 0 0 99px;
+}
+
+.mod-copyright {
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 4px 15px 0;
+}
+
+.copyright {
+    margin-top: 13px;
+    line-height: 20px;
+}
+
