@@ -140,6 +140,15 @@
     font-weight: 400;
 }
 
+/* 给图片添加过渡效果 */
+.box_bd img {
+    transition: margin 0.2s;
+}
+
+.box_bd img:hover {
+    margin-left: 8px;
+}
+
 .tab_list {
     float: right;
     line-height: 30px;
@@ -161,6 +170,7 @@
 .tab_list_item > div {
     float: left;
     height: 361px;
+    overflow: hidden;
 }
 
 .col_210 {
