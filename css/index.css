@@ -201,3 +201,27 @@
     display: block;
     border-bottom: 1px solid #ccc;
 }
+
+/* 固定电梯导航部分 */
+.fixedtool {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    width: 66px;
+    margin-left: -676px;
+}
+
+.fixedtool ul li {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.current {
+    background-color: #c81623;
+}
+
+.current a {
+    color: #fff;
+}
